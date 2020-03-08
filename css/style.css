@@ -1,0 +1,132 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background: rgba(9, 109, 121, 1);
+  /* background: radial-gradient(
+    circle,
+    rgba(0, 41, 52, 1) 0%,
+    rgba(7, 72, 92, 1) 33%,
+    rgba(9, 109, 121, 1) 66%,
+    rgba(0, 128, 154, 1) 100%
+  ); */
+}
+
+#main {
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+form {
+  margin: 0 auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+input,
+.test-wrapper > div {
+  /* display: inline; */
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+  width: 350px;
+  border: none;
+  /* background-color: lightgray; */
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  width: 370px;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+  padding: 5px;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+}
+
+td > input[type="submit"] {
+  width: 100px;
+  display: block;
+  margin: auto;
+  background-color: rgb(141, 141, 141);
+  color: white;
+}
+
+.test-wrapper > div {
+  /* width: auto; */
+  /* float: left; */
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  height: auto;
+  display: block;
+  margin-left: 0;
+  margin: 15px;
+}
+
+table {
+  display: flex;
+}
+td,
+th {
+  border: none;
+  text-align: center;
+  padding: 5px;
+  /* color: white; */
+}
+
+tr {
+  border: none;
+  background-color: lightgray;
+  /* border: 3px solid white; */
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+span {
+  /* display: block; */
+  margin-left: 0px;
+  color: darkred;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 5px;
+}
+
+h4 {
+  height: auto;
+  display: inline-block;
+}
+
+h3 {
+  color: darkred;
+}
+
+.test-wrapper {
+  display: inline-block;
+  /* width: 700px; */
+}
+
+.test-wrapper > input {
+  /* width: 120px; */
+  display: block;
+  margin: 15px;
+  /* float: right; */
+  /* display: inline-block; */
+}
