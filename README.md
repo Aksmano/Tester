@@ -16,7 +16,9 @@ If you are using xampp you have to paste the app into C:\xammp\installation\path
 After launching the app you will be in the logging screen. You can log as administrator login: admin and password: admin. You can also login as normal user or register a new one.
 
 Login panel
+
 ![login](./img/login.png)
 
 Admin panel
+
 ![admin](./img/admin.png)
